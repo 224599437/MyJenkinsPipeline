@@ -56,6 +56,7 @@ pipeline {
                 // Tool: AWS CLI
                 // Description: Deploys tested artifact to production
                 echo 'Deploying to AWS EC2 production instance using AWS CLI'
+                echo 'done'
             }
         }
     }
